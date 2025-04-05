@@ -742,10 +742,6 @@ button {
   border-color: #4d5ae5;
 }
 
-.modal-field {
-  margin-bottom: 16px;
-}
-
 .modal-check {
   margin-bottom: 24px;
 }
@@ -762,7 +758,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: block;
   align-items: center;
 
   span {
