@@ -722,6 +722,10 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-comment-wrap {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
   font-weight: 400;
@@ -744,7 +748,6 @@ button {
   border-color: #4d5ae5;
 }
 
-
 .modal-check:checked + .modal-check-text span {
   background-color: #404bbf;
   border: none;
@@ -759,10 +762,13 @@ button {
   color: #8e8f99;
   display: block;
   align-items: center;
-  margin-bottom: 24px;
 
   span {
   }
+}
+
+.modal-checkbox {
+  margin-bottom: 24px;
 }
 
 .modal-span {
