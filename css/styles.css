@@ -651,8 +651,8 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-close:focus,
-.modal-icon-close:hover {
+.modal-close-btn:focus,
+.modal-close-btn:hover {
   fill: #ffffff;
 }
 
@@ -682,6 +682,7 @@ button {
 
 .modal-input-wrap {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -743,6 +744,10 @@ button {
 
 .modal-field {
   margin-bottom: 16px;
+}
+
+.modal-check {
+  margin-bottom: 24px;
 }
 
 .modal-check:checked + .modal-check-text span {
