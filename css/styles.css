@@ -736,6 +736,7 @@ button {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
+  margin-bottom: 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -743,9 +744,6 @@ button {
   border-color: #4d5ae5;
 }
 
-.modal-check {
-  margin-bottom: 24px;
-}
 
 .modal-check:checked + .modal-check-text span {
   background-color: #404bbf;
@@ -761,6 +759,7 @@ button {
   color: #8e8f99;
   display: block;
   align-items: center;
+  margin-bottom: 24px;
 
   span {
   }
