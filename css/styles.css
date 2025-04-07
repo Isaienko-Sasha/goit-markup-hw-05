@@ -325,7 +325,6 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 32px;
 }
 
 .team-soc-link {
@@ -454,7 +453,6 @@ button {
 }
 
 .footer-logo {
-  padding: 24px 0;
   margin-bottom: 16px;
   display: inline-block;
 }
